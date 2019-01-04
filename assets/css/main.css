@@ -2990,12 +2990,16 @@ input, select, textarea {
 				margin-left: -1.75em;
 				margin-top: -1.75em;
 				position: relative;
-				width: calc(100% + 3.5em);
+				width: 572px;
+				height: 429px;
+				
 			}
 
 				.features article .image img {
 					border-radius: 5px 5px 0 0;
 					width: 100%;
+					height: 429px;
+					object-fit: cover;
 				}
 
 		@media screen and (max-width: 980px) {
@@ -3019,7 +3023,8 @@ input, select, textarea {
 					margin-bottom: 1.5em;
 					margin-left: -1.5em;
 					margin-top: -1.5em;
-					width: calc(100% + 3em);
+					width: 572px;
+					height: 429px;
 				}
 
 		}
